@@ -1,6 +1,8 @@
-*{
-    box-sizing: border-box;
+
+* {
+  box-sizing: border-box;
 }
+
 body {
     background: #10101B;
     height: 100vh;
@@ -8,7 +10,6 @@ body {
 .container {
     margin-top: 30px;
 }
-
 .half-width {
     height: 570px;
     background: #222436;
@@ -27,6 +28,9 @@ body {
     font-size: 20px;
     text-align: center;
 }
+.generate-btn:hover {
+    background-color: #ec6052;
+}
 .generate-btn:focus{
     outline: none;
     box-shadow: none;
@@ -41,6 +45,7 @@ input[type='text']{
     border: 2px solid #858299;
     height: 50px;
     padding: 10px;
+    text-align: center;
 }
 input[type='text']:focus {
     background-color: #3D4153;
@@ -76,6 +81,10 @@ margin-right: -4px;
 border-radius: 10px;
 cursor: pointer;
 }
+.button:hover {
+    background-color: #ec6052;
+    font-weight: bold;
+}
 .blink-me {
 color: #E0B612;
 }
@@ -100,7 +109,12 @@ color: #E0B612;
     width: 35%;
     margin: 0 auto;
 }
+.notify-section > .notify{
+    display: none;
+}
 .action-left {
     color: #FF3C5F;
     margin-top: 10px;
 }
+
+
